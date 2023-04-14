@@ -17,9 +17,9 @@ The recordBook mapping is used to store the account details of the users. It map
 
 2. deposite(): Deposits funds into the user's account.
 
-3. withdraw(uint256 _amount): Withdraws funds from the user's account.
+3. withdraw(): Withdraws funds from the user's account.
 
-4. fundTransfer(address payable _beneficiary, uint256 _amount): Transfers funds from the user's account to another account.
+4. fundTransfer(): Transfers funds from the user's account to another account.
 
 5. checkBalance(): Returns the user's account balance.
 
@@ -27,7 +27,7 @@ The recordBook mapping is used to store the account details of the users. It map
 
 1. userExist(): Checks if the user has an account in the bank.
 
-2. checkFundAvailability(uint256 _amount): Checks if the user has sufficient funds to withdraw or transfer.
+2. checkFundAvailability(): Checks if the user has sufficient funds to withdraw or transfer.
 
 ## Assumptions
 
@@ -40,8 +40,8 @@ The recordBook mapping is used to store the account details of the users. It map
 | ----------------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------- |
 | createAccount()                                             | N/A               | New account created for the user.                                                               |
 | deposite()                                                  | 5 ether           | User's account balance updated to 5 ether.                                                      |
-| withdraw(uint256 _amount)                                   | 2 ether           | User's account balance updated to 3 ether.                                                      |
-| fundTransfer(address payable _beneficiary, uint256 _amount) | 0x123..., 1 ether | User's account balance updated to 2 ether and beneficiary's account balance updated to 1 ether. |
+| withdraw()                                   | 2 ether           | User's account balance updated to 3 ether.                                                      |
+| fundTransfer() | 0x123..., 1 ether | User's account balance updated to 2 ether and beneficiary's account balance updated to 1 ether. |
 | checkBalance()                                              | N/A               | Returns the user's account balance.                                                             |
 
 
