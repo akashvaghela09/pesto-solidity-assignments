@@ -45,3 +45,18 @@ The CrowdFunding is a smart contract that allows users to register new projects 
 | register()    | `"Project A", 10 ether, 0x123...` | New project registered with the given details.      |
 | returnFunds() | 0                                 | Funds returned to contributors and project closed.  |
 | contribute()  | 0                                 | Funds contributed to the project and event emitted. |
+
+
+***
+
+## How to Run This File
+
+To run this Solidity file using the Remix IDE, follow these steps:
+
+1. Open the [Remix IDE](https://remix.ethereum.org) and upload the Solidity file.
+
+2. Compile the file by clicking on the "Compile" button in the "Solidity Compiler" tab.
+
+3. Deploy and test the smart contract using the "Deploy & Run Transactions" and "Remix Test" tabs.
+
+That's it! You can now run your Solidity file and interact with the smart contract using the Remix IDE.
