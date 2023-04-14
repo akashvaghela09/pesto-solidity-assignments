@@ -55,12 +55,8 @@ contract Banking {
         );
 
         // Update balance in both accounts
-        recordBook[_beneficiary].balance =
-            recordBook[_beneficiary].balance +
-            _amount;
-        recordBook[msg.sender].balance =
-            recordBook[msg.sender].balance -
-            _amount;
+        recordBook[_beneficiary].balance += _amount;
+        recordBook[msg.sender].balance -= _amount;
         return;
     }
 
