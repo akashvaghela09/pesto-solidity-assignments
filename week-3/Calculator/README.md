@@ -8,7 +8,7 @@ The Calculator is a smart contract that performs basic arithmetic operations suc
 
 1. addition(): Takes two integers as input and returns their addition.
 
-2. subtraction(): Takes two integers as input and returns their subtraction. Uses int data type to hold negative values. <br>here integer has used to hold negative values instead of unsigned integer
+2. subtraction(): Takes two integers as input and returns their subtraction. Uses int data type to hold negative values.
 
 3. multiplication(): Takes two integers as input and returns their multiplication.
 
