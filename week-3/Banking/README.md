@@ -43,3 +43,18 @@ The recordBook mapping is used to store the account details of the users. It map
 | withdraw(uint256 _amount)                                   | 2 ether           | User's account balance updated to 3 ether.                                                      |
 | fundTransfer(address payable _beneficiary, uint256 _amount) | 0x123..., 1 ether | User's account balance updated to 2 ether and beneficiary's account balance updated to 1 ether. |
 | checkBalance()                                              | N/A               | Returns the user's account balance.                                                             |
+
+
+***
+
+## How to Run This File
+
+To run this Solidity file using the Remix IDE, follow these steps:
+
+1. Open the [Remix IDE](https://remix.ethereum.org) and upload the Solidity file.
+
+2. Compile the file by clicking on the "Compile" button in the "Solidity Compiler" tab.
+
+3. Deploy and test the smart contract using the "Deploy & Run Transactions" and "Remix Test" tabs.
+
+That's it! You can now run your Solidity file and interact with the smart contract using the Remix IDE.
